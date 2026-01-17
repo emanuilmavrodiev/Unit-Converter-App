@@ -173,6 +173,39 @@ body {
     word-break: break-all;
 }
 
+/* Currency Converter Specific Styles */
+.currency-status {
+    background-color: #e8f4f8;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    border-left: 4px solid #667eea;
+}
+
+.currency-status .loading {
+    color: #666;
+}
+
+.currency-status .success {
+    color: #27ae60;
+    font-weight: 600;
+}
+
+.currency-status .warning {
+    color: #f39c12;
+    font-weight: 600;
+}
+
+.exchange-rate {
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 12px;
+    font-style: italic;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 8px;
+}
+
 /* Footer Styles */
 .footer {
     background-color: #333;

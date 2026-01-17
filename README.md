@@ -27,6 +27,28 @@ The metric converter supports conversion between various unit systems:
 #### Nautical Units
 - **Nautical Miles (nmi)** - 1 nmi = 1852 m
 
+### Currency Converter
+Real-time currency conversion with live exchange rates fetched from API.
+
+#### Supported Currencies
+- US Dollar (USD)
+- Euro (EUR)
+- British Pound (GBP)
+- Japanese Yen (JPY)
+- Australian Dollar (AUD)
+- Canadian Dollar (CAD)
+- Swiss Franc (CHF)
+- Chinese Yuan (CNY)
+- Indian Rupee (INR)
+- Mexican Peso (MXN)
+
+**Features:**
+- Real-time exchange rates via exchangerate-api.com
+- Automatic rate caching (updated hourly)
+- Display of current exchange rate
+- Fallback to cached rates if API is unavailable
+- 2 decimal places precision for currency
+
 ### Other Converters
 - Weight/Mass Converter
 - Temperature Converter
@@ -37,6 +59,7 @@ The metric converter supports conversion between various unit systems:
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling with flexbox and grid
 - **Vanilla JavaScript** - No external dependencies
+- **exchangerate-api.com** - Real-time currency exchange rates (free API)
 
 ## File Structure
 ```
